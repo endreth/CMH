@@ -1,45 +1,25 @@
 package eth.cmh.cmh;
 
-import javafx.beans.InvalidationListener;
-import javafx.collections.FXCollections;
-import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
-import javafx.collections.ObservableSet;
 import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.event.EventType;
 import javafx.fxml.FXML;
-
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.time.Duration;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.format.DateTimeFormatter;
-import java.time.format.FormatStyle;
-import java.time.temporal.TemporalAccessor;
-import java.util.*;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeoutException;
-
 import javafx.scene.control.*;
-import javafx.scene.input.MouseButton;
-import javafx.scene.input.MouseEvent;
-import javafx.util.StringConverter;
 import jfxtras.scene.control.CalendarPicker;
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.lib.PersonIdent;
-import org.eclipse.jgit.revwalk.RevCommit;
 import org.eclipse.jgit.transport.UsernamePasswordCredentialsProvider;
-import org.eclipse.jgit.util.SystemReader;
-import org.eclipse.jgit.util.time.ProposedTimestamp;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
 
 
 public class CMHController {
