@@ -7,7 +7,7 @@ The tool utilizes JGit (EGit) to create a local repository, where a user can sel
 It's worth noting that this tool currently lacks any exception handling or notification capabilities, as it was created in a single night. Therefore, it's important to provide all information correctly, as any errors will require restarting the entire process.
 
 ## Usage
-<img align="right" width="400" height="500" src="https://user-images.githubusercontent.com/104054427/228521395-d4486fae-1ede-4915-a230-7b8637b16d6c.png">
+<img align="right" width="400" height="500" src="https://user-images.githubusercontent.com/104054427/228531736-3cbaf521-e9f9-4d54-8130-faa636aa8c3e.png">
 
 Run the JAR file available [here]():
 ```
@@ -31,4 +31,5 @@ $ java -jar cmh.jar
 
 ### Notes
 <sup>1</sup> The email address is mandatory, as only those commits that have an associated email address linked to your GitHub.com account will appear on your contributions graph. Read details [here](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile/why-are-my-contributions-not-showing-up-on-my-profile).<br><br>
-<sup>2</sup> Token-based authentication has succeeded email and password-based authentication, as described in the Github blog. On August 13, 2021, the blog stated that developers who currently use a password to authenticate Git operations with GitHub.com must begin using a personal access token. Read details [here](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/#what-you-need-to-do-today).<br>
+<sup>2</sup> Token-based authentication has succeeded email and password-based authentication, as described in the Github blog. On August 13, 2021, the blog stated that developers who currently use a password to authenticate Git operations with GitHub.com must begin using a personal access token. Read details [here](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/#what-you-need-to-do-today).<br><br>
+The FlatBee UI CSS theme used in the tool was designed by [Marc Schuler](https://github.com/marcschuler/FlatBee).
