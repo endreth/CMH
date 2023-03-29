@@ -1,3 +1,4 @@
+![GitHub](https://img.shields.io/github/license/endreth/CMH?color=%2330c26c&style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/endreth/CMH?color=%2330c26c&style=flat-square) ![GitHub all releases](https://img.shields.io/github/downloads/endreth/CMH/total?color=%2330c26c&style=flat-square)
 # CMH - A Github Commit Map Hacker
 
 **The CMH tool can populate the Github commit map with a non-random or random number of commits to improve its appearance. However, the tool is currently in a raw and unoptimized state.**
