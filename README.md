@@ -9,9 +9,9 @@ It's worth noting that this tool currently lacks any exception handling or notif
 ## Usage
 <img align="right" width="400" height="500" src="https://user-images.githubusercontent.com/104054427/228531736-3cbaf521-e9f9-4d54-8130-faa636aa8c3e.png">
 
-Run the JAR file available [here]():
+Run the JAR file available [here](https://github.com/endreth/CMH/blob/master/cmh-1.0.jar):
 ```
-$ java -jar cmh.jar
+$ java -jar cmh-1.0.jar
 ```
 
 1. Create an empty private repository (Do **NOT** add Readme or License).
