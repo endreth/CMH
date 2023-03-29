@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import jfxtras.scene.control.CalendarPicker?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eth.cmh.cmh.CMHController">
+<BorderPane stylesheets="@FlatBee.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eth.cmh.cmh.CMHController">
    <center>
       <VBox alignment="CENTER" BorderPane.alignment="CENTER">
          <children>
