@@ -12,7 +12,7 @@ public class CMHApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(CMHApplication.class.getResource("cmh.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 500, 600);
-        stage.setTitle("CMH - a Github Commit Map hacker");
+        stage.setTitle("CMH - a Github Commit Map Hacker");
         stage.setScene(scene);
         stage.show();
     }
