@@ -1,4 +1,4 @@
-# CMH - a Github Commit Map hacker
+# CMH - A Github Commit Map Hacker
 
 **The CMH tool can populate the Github commit map with a non-random or random number of commits to improve its appearance. However, the tool is currently in a raw and unoptimized state.**
 
